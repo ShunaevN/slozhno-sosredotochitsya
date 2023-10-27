@@ -16,13 +16,15 @@
    --title-text-block-color: #353430;
    --text-block-color: #FF8DCB;
    --main-font: 'IBM Plex Mono';
-  background-color: #FFF1F7;
+    background-color: #FFF1F7; 
 
   .header__theme-menu-button {
     color: var(--title-text-block-color);
   }
 
- 
+  .page {
+    background-color: var(--title-text-block-color, #FFF1F7);
+  }
     
  
   .header__theme-menu-list {
@@ -66,7 +68,6 @@
   }
 
 }
-
 
 
  
