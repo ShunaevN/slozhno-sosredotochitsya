@@ -57,9 +57,15 @@
     margin-block-start: 182px; 
   }
   }
+
+  @media (width > 1000px) {
+
+    .header__theme-menu-list {
+    margin-block-start: 26px; 
+  }
   }
 
-  
+}
 
 
 
