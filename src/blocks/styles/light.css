@@ -22,11 +22,20 @@
     color: var(--title-text-block-color);
   }
 
-  .page {
-    background-color: var(--title-text-block-color, #FFF1F7);
+  .header__theme-menu-button:hover {
+    outline: 1px solid var(--title-text-block-color, #353430);
   }
-    
- 
+
+  .header__theme-menu-button:focus {
+    border-bottom: 1px solid var(--title-text-block-color, #353430);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    border: none;
+    border-bottom: 1px solid var(--title-text-block-color, #353430);
+    outline: none;
+  }
+
   .header__theme-menu-list {
     margin-block-start: 66.5px;
   }
@@ -52,6 +61,15 @@
   .header__decorated-item-text {
     display: none;
   }
+
+  .main__text-section__title {
+    color: var(--title-text-block-color, #353430);
+  }
+
+  .main__text-section__text {
+    color: var(--title-text-block-color, #353430);
+  }
+
 
   @media (width > 600px) {
 
