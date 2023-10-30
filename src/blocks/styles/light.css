@@ -4,6 +4,20 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: light) {
+  
+  :root {
+  --accent-color: #ff8dcb;
+   --title-text-block-color: #FFF1F7; 
+   --main-background-image: url(../images/cover-image-light.png);
+   --main-title-color: #FFC2E6;
+   --title-text-block-color: #353430;
+   --text-block-color: #353430;
+   --main-font: 'IBM Plex Mono';
+  --background-color: #FFF1F7;
+  }  
+}
+
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -14,9 +28,9 @@
    --main-background-image: url(../images/cover-image-light.png);
    --main-title-color: #FFC2E6;
    --title-text-block-color: #353430;
-   --text-block-color: #FF8DCB;
+   --text-block-color: #353430;
    --main-font: 'IBM Plex Mono';
-    background-color: #FFF1F7; 
+   --background-color: #FFF1F7;; 
 
   .header__theme-menu-button {
     color: var(--title-text-block-color);

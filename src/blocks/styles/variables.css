@@ -16,5 +16,6 @@
   --main-font-style: normal;
   --main-padding: 10px;
   --main-font: 'IBM Plex Mono';
+  --background-color: #000028;
   --main-background-image: url(../images/cover-image-dark.png);
 }
