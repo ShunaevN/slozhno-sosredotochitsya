@@ -5,9 +5,9 @@
 
 :root {
   --accent-color: #ff0070;
-  --main-title-color: #DB00FF;
+  --main-title-color: #db00ff;
   --title-text-block-color: #000028;
-  --text-block-color: #F1B2CE;
+  --text-block-color: #f1b2ce;
   --main-title-block-gap: 10px;
   --main-text-block-gap: 20px;
   --main-font-size: 18px;
@@ -15,7 +15,7 @@
   --main-line-height: 23.4px;
   --main-font-style: normal;
   --main-padding: 10px;
-  --main-font: 'IBM Plex Mono';
+  --main-font: "IBM Plex Mono";
   --background-color: #000028;
   --main-background-image: url(../images/cover-image-dark.png);
 }
