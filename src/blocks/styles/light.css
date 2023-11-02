@@ -4,42 +4,6 @@
   переключая тему
 */
 
-@media (prefers-color-scheme: light) {
-
-  :root {
-    --accent-color: #ff8dcb;
-    --main-title-color: #ffc2e6;
-    --title-text-block-color: #353430; /* fixed */
-    --text-block-color: #353430;
-    --background-color: #fff1f7;
-    --decorated-zone-color: #353430;
-    --main-title-block-gap: 10px;
-    --main-text-block-gap: 20px;
-    --main-background-image: url(../images/cover-image-light.png);
-    --main-font-size: 18px;
-    --main-font-weight: 400;
-    --main-line-height: 23.4px;
-    --main-font-style: normal;
-    --main-padding: 10px;
-    --main-font: "IBM Plex Mono", "Liberation Mono", monospace; /* fixed */
-  }
-
-    /* .header__decorated-item-text {
-      display: none;
-    } 
- 
-   .header__decorated-item-text::after {
-    content: none;
-    } 
-    
-   /* .header__theme-menu-list {
-      margin-block-start: 25px;
-    } 
-     */
-    
-  }
-
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -62,4 +26,60 @@
     --main-font: "IBM Plex Mono", "Liberation Mono", monospace; /* fixed */
 
 }
+
+.theme_light {
+  
+  .header__decorated-item-text {
+    display: none;
+  } 
+    
+  .header__decorated-item-text::after {
+    content: none;
+  } 
+      
+  .header__theme-menu-list {
+    margin-block-start: 25px;
+  } 
+       
+}  
+
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    --accent-color: #ff8dcb;
+    --main-title-color: #ffc2e6;
+    --title-text-block-color: #353430; /* fixed */
+    --text-block-color: #353430;
+    --background-color: #fff1f7;
+    --decorated-zone-color: #353430;
+    --main-title-block-gap: 10px;
+    --main-text-block-gap: 20px;
+    --main-background-image: url(../images/cover-image-light.png);
+    --main-font-size: 18px;
+    --main-font-weight: 400;
+    --main-line-height: 23.4px;
+    --main-font-style: normal;
+    --main-padding: 10px;
+    --main-font: "IBM Plex Mono", "Liberation Mono", monospace; /* fixed */
+  }
+
+  .header__decorated-item-text {
+    display: none;
+  } 
+    
+  .header__decorated-item-text::after {
+    content: none;
+  } 
+      
+  .header__theme-menu-list {
+    margin-block-start: 25px;
+  } 
+
+  }
+
+
+
+
+
  
