@@ -18,10 +18,10 @@ function html() {
     sortClassName: true,
     useShortDoctype: true,
     collapseWhitespace: true,
-      minifyCSS: true,
+      minifyCSS: false,
       keepClosingSlash: true
   };
-return gulp.src('src/**/*.html')
+return gulp.src('src/*.html')
       .pipe(plumber())
       .on('data', function(file) {
         const buferFile = Buffer.from(htmlMinify.minify(file.contents.toString(), options))
@@ -62,7 +62,7 @@ function css() {
   
 
   function watchFiles() {
-    gulp.watch(['src/**/*.html'], html);
+    gulp.watch(['src/*.html'], html);
     gulp.watch(['src/**/*.css'], css);
     gulp.watch(['src/blocks/images/**/*.{jpg,png,svg,gif,ico,webp,avif}'], images);
   } 
