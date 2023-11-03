@@ -19,4 +19,6 @@
   --main-font: "IBM Plex Mono", "Liberation Mono", monospace;
   --background-color: #000028;
   --main-background-image: url(../images/cover-image-dark.png);
+  /* stylelint-disable-next-line color-function-notation */
+  --button-hover: rgba(255, 0, 112, 0.4); /* fixed */
 }
