@@ -26,21 +26,9 @@
   --main-font: "IBM Plex Mono", "Liberation Mono", monospace; /* fixed */
   /* stylelint-disable-next-line color-function-notation */
   --button-hover: rgba(50, 49, 45, 0.4);
+  --decorated-block-visibility: none;
 }
 
-/* fixed */
-
-.theme_light .header__decorated-item-text {
-  display: none;
-}
-
-.theme_light .header__decorated-item-text::after {
-  content: none;
-}
-
-.theme_light .header__theme-menu-list {
-  margin-block-start: 25px;
-}
 
 @media (prefers-color-scheme: light) {
 
@@ -62,17 +50,7 @@
     --main-font: "IBM Plex Mono", "Liberation Mono", monospace; /* fixed */
     /* stylelint-disable-next-line color-function-notation */
     --button-hover: rgba(50, 49, 45, 0.4);
+    --decorated-block-visibility: none;
   }
 
-  .header__decorated-item-text {
-    display: none;
-  }
-
-  .header__decorated-item-text::after {
-    content: none;
-  }
-
-  .header__theme-menu-list {
-    margin-block-start: 25px;
-  }
 }

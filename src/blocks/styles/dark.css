@@ -22,4 +22,7 @@
   --main-background-image: url(../images/cover-image-dark.png);
   /* stylelint-disable-next-line color-function-notation */
   --button-hover: rgba(255, 0, 112, 0.4);
+  --decorated-block-visibility: block;
 }
+
+
